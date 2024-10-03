@@ -18,7 +18,7 @@ export default function Home() {
 
       <div className="flex justify-center items-center">
         <img
-          src="../src/assets/img/luffy.png"
+          src="/luffy.png"
           alt="Luffy"
           className="home-image"
         />
