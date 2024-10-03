@@ -1,0 +1,67 @@
+.home-container {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-4 max-h-[524px];
+  @apply max-w-screen-lg mx-auto;
+}
+
+.home-text {
+  @apply flex flex-col justify-center items-start h-full;
+}
+
+.home-title {
+  @apply text-6xl font-bold mb-4;
+}
+
+.home-description {
+  @apply text-gray-900 text-xl;
+}
+
+.home-image {
+  @apply max-w-full max-h-[524px] object-contain;
+}
+
+.about-subtitle {
+  @apply text-2xl font-semibold mb-2 text-white;
+}
+
+.experience-container {
+  @apply max-w-screen-lg mx-auto py-8 px-4;
+}
+
+.experience-subtitle {
+  @apply text-2xl font-semibold mb-2 text-white;
+}
+
+/* Container Styling */
+.education-container,
+.skills-container,
+.interests-container,
+.awards-container {
+  @apply max-w-screen-lg mx-auto py-8 px-4;
+}
+
+/* Subtitle Styling */
+.education-subtitle,
+.award-subtitle {
+  @apply text-2xl font-semibold mb-2 text-white;
+}
+
+/* List Styling */
+.skills-list {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-4;
+}
+
+.skill-item {
+  @apply bg-gray-200 p-2 rounded text-center font-semibold;
+}
+
+.interest-list {
+  @apply list-disc text-gray-900;
+}
+
+.interest-item {
+  @apply text-lg font-semibold mb-2 text-green-600;
+}
+
+.interest-item-paragraph {
+	@apply text-gray-800 text-base font-normal;
+}

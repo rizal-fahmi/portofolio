@@ -1,0 +1,28 @@
+.navbar {
+  @apply mb-4;
+}
+
+.navbar-menu {
+  @apply max-w-screen-lg flex flex-wrap items-center justify-between mx-auto py-2;
+}
+
+.navbar-logo {
+  @apply text-xl font-bold text-white border-b-2 border-l-2 border-white rounded-full p-2;
+}
+
+.navbar-links-container {
+  @apply flex flex-col md:flex-row space-y-1 md:space-y-0 md:space-x-1 text-white;
+}
+
+.navbar-links {
+  @apply block py-1 px-4 md:px-2 hover:text-green-500 hover:bg-white border-b border-transparent rounded-lg;
+}
+
+.navbar-link-active {
+  @apply text-green-500 bg-white border-green-500 border-b-2 border-l-2;
+}
+
+
+.button-toggle {
+  @apply inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white border-2 border-white rounded-lg md:hidden hover:text-green-400 hover:bg-white hover:border-green-400;
+}

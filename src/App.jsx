@@ -1,10 +1,13 @@
-function App() {
+// import "./App.css"
+// import Home from "./pages/Home";
 
-  return (
-    <>
-      <h1 className="text-3xl font-bold underline text-fuchsia-700">Hello world!</h1>
-    </>
-  );
-}
+// function App() {
 
-export default App
+//   return (
+//     <>
+//       <Home />
+//     </>
+//   );
+// }
+
+// export default App
